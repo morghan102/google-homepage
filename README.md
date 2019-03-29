@@ -1,0 +1,3 @@
+This is a mini project where I will practice using html and css. Not sure what I'm going to learn (but that I will learn something). That's pretty much how this whole course is ...
+
+From the Odin Project's [curriculum] (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
