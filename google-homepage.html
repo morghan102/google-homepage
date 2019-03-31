@@ -4,20 +4,24 @@
 </head>
 <html>
     <body>
-        <div>
+        <div class="navbar">
                 <ul>
                         <li><a href="about.asp">About</a></li>
                         <li><a href="store.asp">Store</a></li>
-                        <li><a href="gmail.asp">Gmail</a></li>
-                        <li><a href="images.asp">Images</a></li>
-                    </ul>
+                        <li style="float:right"><a href="gmail.asp">Gmail</a></li>
+                        <li style="float:right"><a href="images.asp">Images</a></li>
+                </ul>
         </div>
-       <div style="text-align:center" class="logo">
-            <img alt="Google logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
+       <div class="logo">
+            <img alt="Google logo" style="position:relative; top:100px; width:50%; height:50%" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
+       </div>
+       <div class="q"> 
             <form> 
                 <input type="text">
-                <input type="submit">
+                <input id="search1" type="submit" value="search">
+                <input id="search2" type="submit" value="I'm feeling lucky">
             </form>
        </div>
     </body>
+    
 </html>
